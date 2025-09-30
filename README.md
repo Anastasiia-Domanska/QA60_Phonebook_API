@@ -22,28 +22,27 @@ As part of the project, tests were written to verify the operation of the API an
 
 # Project structure
 QA60_PhoneBook_API
-│── build.gradle
-│── src
-│ ├── main
-│ │ ├── dto
-│ │ │ ├── AllContactsDTO.java
-│ │ │ ├── AllRequestDTO.java
-│ │ │ ├── AllResponseDTO.java
-│ │ │ ├── ContactDTO.java
-│ │ │ ├── ErrorDTO.java
-│ │ │ └── PutContactsDTO.java
-│ └── test
-│ ├── mysqlConnector
-│ │ ├── DBData.java
-│ │ └── SQLConnectorTests.java
-│ ├── okhttp
-│ │ ├── OKHttpLogin.java
-│ │ └── OKHttpTests.java
-│ └── restAssured
-│ ├── DeleteContactArrayTests.java
-│ ├── GetAllContactsArrayTests.java
-│ ├── PutContactsTests.java
-│ └── TestBase.java
+-.idea
+-gradle
+-src
+-- main
+---- AllContactsDTO.java
+---- AllRequestDTO.java
+---- AllResponseDTO.java
+---- ContactDTO.java
+---- ErrorDTO.java
+---- PutContactsDTO.java
+-- test
+--- mysqlConnector
+---- DBData.java
+---- SQLConnectorTests.java
+--- okhttp
+---- LoginOKHttpTests.java
+--- restAssured
+---- DeleteContactRATests.java
+---- GetAllContactsRATests.java
+---- PutContactsTests.java
+---- TestBase.java
 
 # The automated tests cover:
 user authorization,
